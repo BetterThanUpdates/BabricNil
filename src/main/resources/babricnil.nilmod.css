@@ -1,0 +1,11 @@
+@nilmod {
+    /* There is no id field. The filename defines the id of the mod. */
+    name: "BabricNil";
+    description: "Makes FabricLoader work better with beta 1.7.3";
+    authors: "j6pak, halotroop2288";
+    version: "${version}";
+}
+
+entrypoints {
+    premain: "io.github.betterthanupdates.babricnil.BabricNilPremain";
+}
